@@ -16,6 +16,10 @@ const Routes = ({user, setToken, setUser, applyToJob}) => {
       element: <NavBar user={user} />,
       children: [
         {
+          index: true,
+          element: <Navigate to="/home" />,
+        },
+        {
           path: '/home',
           element: <Home user={user} />
         },
