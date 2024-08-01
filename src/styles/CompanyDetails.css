@@ -1,0 +1,12 @@
+.CD-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.CD-h2, .CD-h4{
+  color: white;
+  text-shadow: 
+  2px 2px 4px rgba(0, 0, 0, 0.5)
+}

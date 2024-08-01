@@ -1,0 +1,36 @@
+.NavBar-nav-div{
+  padding: 18px 0px 16px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavBar-body{
+  min-height: 95vh;
+  background-image: url(../assets/react.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.NavBar-Link, .NavBar-NavLink{
+  color: black;
+  text-decoration: none;
+  align-items: center;
+}
+
+.NavBar-NavLink{
+  margin: 24px;
+  font-size: 16px;
+}
+
+.NavBar-Link{
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.active{
+  font-weight: bold;
+  color: #007bff;
+}

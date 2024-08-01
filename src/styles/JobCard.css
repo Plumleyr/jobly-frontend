@@ -1,0 +1,43 @@
+.JobCard{
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0;
+  background-color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  width: 50%;
+  position: relative;
+}
+
+.JC-header{
+  margin: 10px 0;
+}
+
+.JC-p{
+  margin: 8px 0 12px 0;
+}
+
+.JC-small{
+  margin-bottom: 8px;
+}
+
+.JC-btn{
+  border: 1px solid rgb(189, 46, 46);
+  border-radius: 4px;
+  background-color: rgb(189, 46, 46);
+  color: white;
+  font-size: 16px;
+  padding: 8px 16px;
+  position: absolute;
+  right: 12px;
+  bottom: 8px;
+}
+
+.applied{
+  border: 1px solid rgb(255, 131, 131);
+  background-color: rgb(255, 131, 131);
+}
+
+.JC-div{
+  height: 30px;
+}
